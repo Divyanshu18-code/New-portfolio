@@ -11,6 +11,7 @@ import { Achievements, Learning } from "@/components/portfolio/achievements";
 import { Services, TechStack } from "@/components/portfolio/services";
 import { GitHubSection } from "@/components/portfolio/github";
 import { Contact, Footer } from "@/components/portfolio/contact";
+import { ShapeGrid } from "@/components/portfolio/ShapeGrid";
 
 const TITLE = "Divyanshu Pandey — Full Stack Developer & AI Enthusiast";
 const DESCRIPTION =
@@ -47,13 +48,26 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <>
+      {/* Interactive ShapeGrid Animated Background from React Bits */}
+      <div className="fixed inset-0 z-0 pointer-events-none opacity-50 dark:opacity-35">
+        <ShapeGrid
+          speed={0.4}
+          squareSize={42}
+          direction="diagonal"
+          borderColor="rgba(148, 163, 184, 0.12)"
+          hoverFillColor="rgba(6, 182, 212, 0.3)"
+          shape="square"
+          hoverTrailAmount={6}
+        />
+      </div>
+
       <LoadingScreen />
       <Navbar />
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.4 }}
-        className="relative overflow-x-hidden"
+        className="relative z-10 overflow-x-hidden"
       >
         <Hero />
         <About />
