@@ -18,7 +18,7 @@ const CARDS = [
     Icon: Mail,
     label: "Email",
     value: "divyanshupandey292007@gmail.com",
-    href: SOCIALS.email,
+    href: undefined,
     copyable: true,
   },
   {

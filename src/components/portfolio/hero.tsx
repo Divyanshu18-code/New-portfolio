@@ -125,7 +125,7 @@ export function Hero() {
             {[
               { href: SOCIALS.github, Icon: Github, label: "GitHub" },
               { href: SOCIALS.linkedin, Icon: Linkedin, label: "LinkedIn" },
-              { href: SOCIALS.email, Icon: Mail, label: "Email" },
+              { href: "#contact", Icon: Mail, label: "Contact" },
             ].map(({ href, Icon, label }) => (
               <a
                 key={label}
