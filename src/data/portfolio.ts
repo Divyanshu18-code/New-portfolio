@@ -267,12 +267,11 @@ export const TESTIMONIALS = [
 ];
 
 export const RESPONSIBILITIES = [
-  "Engaged in Product Engineering & CRM Platform Development at MartechAdda.",
-  "Designed and built interactive Blog & FAQ page modules (MarTechAdda-Blog-Page & MarTechAdda-FAQ-page).",
-  "Built and improved Ticket Management & Ticket Assignment workflows.",
-  "Developed Notification System & Real-Time Chat features.",
-  "Implemented Activity Feed & Escalation Queue components.",
-  "Collaborated with cross-functional engineering teams using Git and GitHub.",
-  "Engineered features using React, TypeScript, Tailwind CSS, Node.js, Express.js, Prisma ORM, and MongoDB.",
-  "Participated in daily agile standups, code reviews, and UI/UX optimization.",
+  "Engineered full-stack modules for MTA CRM: Ticket Dashboard, Escalation Queue, and Activity Feed.",
+  "Developed Real-Time Chat & Communication modules with internal & freelancer file sharing support.",
+  "Designed, built & deployed the official production Blog Page (MarTechAdda-Blog-Page) on Vercel.",
+  "Componentized and integrated the About MarTechAdda (V3) brand philosophy frontend architecture.",
+  "Architected RESTful APIs with Node.js & Express, backed by MongoDB and Prisma ORM.",
+  "Designed database schemas and transaction management workflows for Ledgerly banking platform.",
+  "Utilized AI-assisted engineering tools (AntiGravity, Cursor) with clean Git branching & PR workflows.",
 ];
