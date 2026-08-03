@@ -6,6 +6,7 @@ import { Aurora, Particles } from "./primitives";
 import { SOCIALS } from "@/data/portfolio";
 
 const ROLES = [
+  "Product Engineering Intern",
   "Full Stack Developer",
   "AI & Agentic AI Enthusiast",
   "CSE Undergraduate",

@@ -23,7 +23,7 @@ export function Experience() {
                 <Briefcase size={18} />
               </span>
               <div>
-                <h3 className="text-lg font-semibold">AI Agent Developer Intern</h3>
+                <h3 className="text-lg font-semibold">Product Engineering Intern</h3>
                 <p className="text-sm text-muted-foreground">MartechAdda Pvt. Ltd.</p>
               </div>
             </div>

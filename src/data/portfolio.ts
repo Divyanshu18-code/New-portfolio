@@ -267,15 +267,12 @@ export const TESTIMONIALS = [
 ];
 
 export const RESPONSIBILITIES = [
-  "Worked on a modern CRM platform.",
-  "Built and improved Ticket Management modules.",
-  "Developed Notification System features.",
-  "Worked on Real-Time Chat modules.",
-  "Implemented Activity Feed components.",
-  "Collaborated using Git and GitHub.",
-  "Worked with React, TypeScript, Tailwind CSS, Node.js, Express.js, Prisma ORM, and MongoDB.",
-  "Learned modern software architecture.",
-  "Participated in code reviews and team collaboration.",
-  "Followed industry-standard development workflow.",
-  "Improved UI/UX and application performance.",
+  "Engaged in Product Engineering & CRM Platform Development at MartechAdda.",
+  "Designed and built interactive Blog & FAQ page modules (MarTechAdda-Blog-Page & MarTechAdda-FAQ-page).",
+  "Built and improved Ticket Management & Ticket Assignment workflows.",
+  "Developed Notification System & Real-Time Chat features.",
+  "Implemented Activity Feed & Escalation Queue components.",
+  "Collaborated with cross-functional engineering teams using Git and GitHub.",
+  "Engineered features using React, TypeScript, Tailwind CSS, Node.js, Express.js, Prisma ORM, and MongoDB.",
+  "Participated in daily agile standups, code reviews, and UI/UX optimization.",
 ];
