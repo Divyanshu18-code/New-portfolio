@@ -66,10 +66,15 @@ export function About() {
             <span className="-ml-[27px] mr-3 inline-block h-3 w-3 rounded-full [background-image:var(--gradient-brand)]" />
             <p className="inline text-base font-medium">Bachelor of Technology (B.Tech)</p>
             <p className="mt-2 text-sm text-muted-foreground">Computer Science Engineering</p>
-            <p className="mt-1 text-sm text-muted-foreground">IILM University, Greater Noida</p>
-            <p className="mt-4 inline-flex rounded-full border border-border px-3 py-1 font-mono text-xs text-accent">
-              Current Year — Third Year
-            </p>
+            <p className="mt-1 text-sm text-muted-foreground">IILM University, Greater Noida (2024 – Present)</p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <span className="inline-flex rounded-full border border-border px-3 py-1 font-mono text-xs text-accent">
+                CGPA: 7.38
+              </span>
+              <span className="inline-flex rounded-full border border-border px-3 py-1 font-mono text-xs text-muted-foreground">
+                Graduation: May 2028
+              </span>
+            </div>
           </div>
         </Reveal>
       </div>
