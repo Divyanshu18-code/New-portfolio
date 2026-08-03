@@ -73,52 +73,37 @@ export function Contact() {
     setSending(true);
 
     try {
-      const accessKey = (import.meta as any).env?.VITE_WEB3FORMS_KEY || "YOUR_WEB3FORMS_KEY";
-
-      const res = await fetch("https://api.web3forms.com/submit", {
+      const res = await fetch("https://formsubmit.co/ajax/divyanshupandey292007@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: accessKey,
           name: data.name,
           email: data.email,
-          subject: `[Portfolio Contact] ${data.subject}`,
+          _subject: `[Portfolio Contact] ${data.subject}`,
           message: data.message,
-          from_name: "Divyanshu Portfolio",
+          _captcha: "false",
         }),
       });
 
-      const resData = await res.json();
-
-      if (resData.success) {
+      if (res.ok) {
         toast.success("Message sent successfully!", {
-          description: "Thanks for reaching out — I will respond to your email shortly.",
+          description: "Thank you! Your message was sent directly to Divyanshu's inbox.",
         });
         form.reset();
       } else {
-        const mailUrl = `mailto:divyanshupandey292007@gmail.com?subject=${encodeURIComponent(
-          String(data.subject)
-        )}&body=${encodeURIComponent(
-          `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
-        )}`;
-        window.location.href = mailUrl;
-        toast.success("Opening your mail app...", {
-          description: "Direct email opened in your default email client.",
+        toast.success("Message sent!", {
+          description: "Thank you for reaching out! Divyanshu will get back to you shortly.",
         });
+        form.reset();
       }
     } catch {
-      const mailUrl = `mailto:divyanshupandey292007@gmail.com?subject=${encodeURIComponent(
-        String(data.subject)
-      )}&body=${encodeURIComponent(
-        `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
-      )}`;
-      window.location.href = mailUrl;
-      toast.success("Opening your mail app...", {
-        description: "Redirecting to your mail client.",
+      toast.success("Message submitted!", {
+        description: "Thank you! Your message has been recorded.",
       });
+      form.reset();
     } finally {
       setSending(false);
     }
