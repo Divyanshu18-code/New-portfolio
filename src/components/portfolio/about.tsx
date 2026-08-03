@@ -32,8 +32,8 @@ export function About() {
             </p>
             <p>
               I love transforming ideas into real products that solve real-world problems. My
-              interests include Full Stack Development, Artificial Intelligence, Agentic AI,
-              Cloud Technologies, Automation, and Software Engineering.
+              interests include Full Stack Development, Product Engineering, Artificial
+              Intelligence, Agentic AI, Automation, and Modern Web Architecture.
             </p>
             <p>
               Currently, I am continuously improving my skills by building projects, contributing
